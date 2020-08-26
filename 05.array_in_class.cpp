@@ -7,12 +7,12 @@ class person
 {
 
 char name[10];
-int sub[3],total=0;
+int sub[4];
 public:
 void getname()
 {
-	cout<<"\n Enter NAME ";
-	cin>>name;
+  cout<<"\n Enter NAME ";
+  cin>>name;
   cout<<"\nEnter marks 1 ";
   cin>>sub[0];
   cout<<"\nEnter marks 2 ";
@@ -23,20 +23,21 @@ void getname()
 
 void display()
 {
-	cout<<"\n Name "<<name;
+  cout<<"\n Name "<<name;
   cout<<"\nmarks1 :"<<sub[0];
   cout<<"\nmarks2: "<<sub[1];
   cout<<"\nmarks3 :"<<sub[2];
-  total=sub[0]+sub[1]+sub[2];
-  cout<<"\nSum of marks is "<<total;
+  sub[3]=sub[0]+sub[1]+sub[2];
+  cout<<"\nSum of marks is "<<sub[3]<<endl;
 
 }
 };
-int main(){
+int main()
+{
 	person p[10];
 	for(int j=0;j<=3;j++)
 	{
-	p[j].getname();
-	p[j].display();
+	 p[j].getname();
+	 p[j].display();
 	}
 } 
