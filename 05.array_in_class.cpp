@@ -24,11 +24,11 @@ void getname()
 void display()
 {
   cout<<"\n Name "<<name;
-  cout<<"\nmarks1 :"<<sub[0];
-  cout<<"\nmarks2: "<<sub[1];
-  cout<<"\nmarks3 :"<<sub[2];
+  cout<<"\nmarks1 : "<<sub[0];
+  cout<<"\nmarks2 : "<<sub[1];
+  cout<<"\nmarks3 : "<<sub[2];
   sub[3]=sub[0]+sub[1]+sub[2];
-  cout<<"\nSum of marks is "<<sub[3]<<endl;
+  cout<<"\nSum of marks is : "<<sub[3]<<endl;
 
 }
 };
