@@ -13,7 +13,7 @@ class emp{
 
     void intro(){
         cout<<"\nName: "<<Name<<endl;
-        cout<<"Age: "<<Age<<endl;
+        cout<<"Age: "<<Age<<endl<<endl;
     }
 };
 
